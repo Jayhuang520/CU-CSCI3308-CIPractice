@@ -4,4 +4,6 @@ language: c
 
 compiler: gcc
 
-script: make && test
+script: make && make test
+
+sudo: required
